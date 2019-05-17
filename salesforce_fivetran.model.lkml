@@ -1,6 +1,6 @@
 # preliminaries #
 
-connection: "fivetran_looker_blocks_demo"
+connection: "bigquery"
 
 include: "*_*.view"
 include: "sf_*"
