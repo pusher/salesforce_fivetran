@@ -122,6 +122,7 @@ view: _lead {
   dimension: email {
     type: string
     sql: ${TABLE}.email ;;
+    tags: ["email"]
   }
 
   dimension_group: email_bounced {
